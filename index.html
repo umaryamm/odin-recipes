@@ -3,12 +3,87 @@
     <head>
         <meta charset="utf-8">
         <title>Recipe Book</title>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+
+        <style>
+            .container{
+                height: 8px;
+                width: auto;
+                border: 24px;
+                padding: 12px;
+            
+            }
+            h1{
+                font-family: fantasy;
+                color:brown;
+                text-align: center;
+             }
+             p{
+                font-family: cursive;
+                color: maroon;
+                font-weight: 500;
+                 border: 20px;
+             }
+             h3{
+               font-family: 'Segoe UI';
+               color:maroon;
+               font-weight: 25px;
+               
+             }
+             body{
+                background-color: #fff0e1;   
+                }
+ 
+
+
+.btn{
+    background-color: maroon;
+    padding: 12px ;
+    font-size: 18px;
+    border: 5px solid pink;
+    border-radius:8px;
+    color:pink;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.recipe{
+    background-color:pink;
+    border: 5px solid maroon;
+    padding:8px;
+    color:pink;
+    width: 680px;
+}
+.color{
+    color :brown;
+}
+.btn:hover{
+     background-color: hotpink;
+     color:pink;
+}
+.inner{
+                  background-color: #ffe6f0;     
+  border: 2px solid #f5c2d7;   
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+    
+    </style>
     </head>
     <body>
-        <h1>ODIN RECIPES</h1>
-        <P>A PERFECT PLACE FOR YOUR COOKING SHENANIGANS</P>
+        <div class="container">
+        <h1>RECIPES</h1>
+        <P><em> PERFECT PLACE FOR YOUR COOKING SHENANIGANS</em> </P>
+        <div class="recipe">
         <H3>CHOCOLATE CAKE RECIPE</H3>
-        <P>IF YOU ARE CRAVING SOMETHING SWEET THIS IS THE PERFECT RECIPE FOR YOU</P> 
-        <a href="recipes/cake.html">recipe</a>
+        <div class="inner">
+        <P class="color"><em>IF YOU ARE CRAVING SOMETHING SWEET THIS IS THE PERFECT RECIPE FOR YOU</em></P> 
+        </div>
+        <a href="recipes/cake.html"><button class="btn" >VIEW RECIPE</button></a>
+        
+        </div>
+        </div>
     </body>
 </html>
